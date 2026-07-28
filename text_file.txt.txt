@@ -4,3 +4,7 @@ Ahmed
 Max
 Weiyu
 Ollie
+
+
+Ollie: 
+I am learning GitHub and contributing to the project.
