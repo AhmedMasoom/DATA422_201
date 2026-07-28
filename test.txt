@@ -1,0 +1,15 @@
+# Team Rules
+
+Group Members
+
+Ahmed
+Ollie
+Max
+Weiyu
+
+Rules
+
+1. Respect everyone.
+2. Reply within 24 hours.
+3. Weekly meeting every Tuesday.
+4. Use GitHub for all code.
