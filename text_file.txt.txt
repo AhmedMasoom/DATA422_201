@@ -10,4 +10,4 @@ Ollie:
 I am learning GitHub and contributing to the project.
 
 Weiyu：
-I am a DATA201 student contributing to this project.
+I am a DATA201 student learning github and contributing to this project. :)
