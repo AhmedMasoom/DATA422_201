@@ -11,7 +11,7 @@ I am learning GitHub and contributing to the project.
 
 Weiyu：
 I am a DATA201 student contributing to this project.
-
+weiyu is cool
 
 Max:
 Messi is a better footballer than Ronaldo
