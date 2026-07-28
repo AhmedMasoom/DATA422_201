@@ -54,6 +54,7 @@ contributes to the report and presentation.
 | Rupika | Analysis Lead | `[TODO]` | `[TODO]` | [ ] |
 | Rex | Data Lead | `[TODO]` | `[TODO]` | [ ] |
 | Max | Report & Comms Lead | `[TODO]` | `[TODO]` | [ ] |
+| Weiyu Liu | Support | wli115@uclive.ac.nz | WeiyuLiu1 | [x] |
 
 ---
 
