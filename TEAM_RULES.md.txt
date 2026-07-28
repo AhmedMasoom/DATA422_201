@@ -1,0 +1,92 @@
+5. Communication Plan
+Channel	Used for	Expected response time
+WhatsApp	Quick questions, day-to-day chat	Within 1 hours on weekdays
+Email	Formal / external comms tutor	Within 24 hours
+ClickUp comments	Task-specific discussion & decisions	When working on the task
+Zoom	Team meetings	Confirm/declines participation 24 Hours before the meeting
+OneDrive	Files, datasets, report drafts	N/A
+Norm: if you are unavailable or cannot meet a deadline, tell the team as early as possible.
+
+
+6. Meeting Cadence
+•	Weekly Internal team meeting: Every Friday at 8:30 pm, approx. 45 minutes for reviewing progress, planning the week, unblocking the issues.
+•	Weekly meeting with Mentor: Ever Sunday, approximately 1 hour for reviewing the progress
+•	Short mid-week check-in: Async update in WhatsApp / ClickUp
+•	Each meeting has a brief agenda; the Project Lead records key decisions and action items in ClickUp.
+•	Ad-hoc working sessions as needed near deliverable dates.
+
+7. Decision-Making
+•	Routine decisions are made by the relevant role lead.
+•	Decisions affecting scope, methods or deliverables are made by the team, aiming for consensus.
+•	If consensus cannot be reached, we decide by majority vote; the Project Lead breaks a tie.
+•	All significant decisions are recorded (in ClickUp or meeting notes) so they are not relitigated.
+
+8. Ways of Working – Team Norms
+•	Treat each other with respect; everyone’s input is valued.
+•	Keep tasks in ClickUp up to date – status, blockers and links to outputs.
+•	Deliver your tasks by the agreed date, or flag early if you cannot.
+•	Give feedback on the work, not the person; assume good intent.
+•	Version control: save files in the shared drive with clear names; avoid duplicate copies.
+•	Reference everything – capture sources as you go for citations.
+
+9. Task & Project Management
+We manage the project in ClickUp using the imported plan (8 phases, 49 subtasks). Conventions:
+•	Every task has an owner, a due date and a status (To Do / In Progress / In Review / On Hold / Done).
+•	Update your task status before each meeting.
+•	Use the Board view for standups, Gantt/Timeline to watch the critical path, and Calendar for the week.
+•	Raise blockers as ClickUp comments and @mention the people involved.
+
+
+
+
+
+
+10. Accountability & Deadlines
+•	Internal deadlines are set a few days before any official due date to allow review and buffer.
+•	If a member repeatedly misses commitments, the team discusses it openly and supportively first.
+•	Persistent issues are escalated to the program tutor/coordinator as a last resort.
+•	We track contribution fairly, so peer/teamwork assessment reflects reality.
+
+11. Quality Standards – Definition of Done
+We will be assessed against the brief’s six rubric criteria. A deliverable is “done” when it meets these:
+Rubric criterion	What “good” looks like for us
+Written Communication / Structure	Clear, well-organised report within 2,500–3,000 words, proofread.
+Getting Information	Relevant, credible data sources identified and documented.
+Analysing Data & Information	Sound, reproducible analysis; conclusions supported by evidence.
+Critical Thinking	Honest about limitations; thoughtful recommendations and next steps.
+Teamwork	Equitable contribution; decisions and workload shared.
+Presentation Skills	Clear, well-rehearsed 10-minute talk; everyone presents.
+Every report section and the deck get a peer review before submission.
+
+12. Conflict Resolution
+1.	Raise the issue early and directly with the people involved, in private and respectfully.
+2.	If unresolved, bring it to the full team to discuss and agree a way forward.
+3.	If still unresolved, the Project Lead facilitates a decision per Section 7.
+4.	As a last resort, escalate to the program tutor/coordinator.
+
+
+
+
+
+
+
+
+
+
+13. Risks & Contingencies
+Risk	Impact	Mitigation
+Data hard to find or access	Delays analysis	Start sourcing in week 1; have a backup catchment/sample dataset.
+A member unavailable / drops out	Workload imbalance	Cross-share knowledge; document work in ClickUp; redistribute early.
+Report over word limit / late	Marks lost	Word-count check task.
+
+
+
+
+14. Agreement & Sign-Off
+By signing below, each member agrees to uphold this charter for the duration of the project.
+Name	Signature	Date
+ 	 	 
+ 	 	 
+ 	 	 
+ 	 	 
+ 	 	 
