@@ -8,6 +8,7 @@ Ollie
 
 Ollie: 
 I am learning GitHub and contributing to the project.
+I am a second year Data Science student majoring in Business Analytics
 
 Weiyu：
 I am a DATA201 student contributing to this project.
