@@ -15,6 +15,10 @@ I am a DATA201 student contributing to this project.
 
 Max:
 Messi is a better footballer than Ronaldo
+<<<<<<< HEAD
 
 Ahmed:
 Ronaldo is the goat.
+=======
+He is the goat
+>>>>>>> c5d261e18f36a3134a670383ab91bba022c506ae
