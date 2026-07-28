@@ -134,6 +134,8 @@ Report over word limit / late	Marks lost	Word-count check task.
 
 
 
+# Deleting the Agreement & Sign-off 
+# Checking again
 
 14. Agreement & Sign-Off
 By signing below, each member agrees to uphold this charter for the duration of the project.
