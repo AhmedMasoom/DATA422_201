@@ -1,2 +1,8 @@
 # Ignore macOS system files
 .DS_Store
+
+# Ignore everything inside raw data
+data/raw/*
+
+# But keep the folder itself
+!data/raw/.gitkeep

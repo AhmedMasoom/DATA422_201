@@ -7,7 +7,7 @@
 		<node id="3" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table: Sanity Check # 2" position="(572.0, 54.0)" />
 		<node id="4" name="Impute" qualified_name="Orange.widgets.data.owimpute.OWImpute" project_name="Orange3" version="" title="Impute: Removed Nulls" position="(713.0, 55.0)" />
 		<node id="5" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table: Sanity Check # 3" position="(875.0, 56.0)" />
-		<node id="6" name="Select Rows" qualified_name="Orange.widgets.data.owselectrows.OWSelectRows" project_name="Orange3" version="" title="Select Rows: Filtering price &gt;= NZD 2,000" position="(1082.0, 58.0)" />
+		<node id="6" name="Select Rows" qualified_name="Orange.widgets.data.owselectrows.OWSelectRows" project_name="Orange3" version="" title="Select Rows: Filtering (0 &lt; price &lt;= NZD 2,000)" position="(1082.0, 58.0)" />
 		<node id="7" name="Distributions" qualified_name="Orange.widgets.visualize.owdistributions.OWDistributions" project_name="Orange3" version="" title="Distributions: price (combined)" position="(1566.0, 195.0)" />
 		<node id="8" name="Select Rows" qualified_name="Orange.widgets.data.owselectrows.OWSelectRows" project_name="Orange3" version="" title="Select Rows: Filtering  neighbourhood_group = &quot;Christchurch City&quot;" position="(1315.0, 52.0)" />
 		<node id="9" name="Distributions" qualified_name="Orange.widgets.visualize.owdistributions.OWDistributions" project_name="Orange3" version="" title="Distribution: price (CHC)" position="(1567.0, 51.0)" />
@@ -82,8 +82,8 @@ Amh4SwRoe0sCaH5LAmiBSwJohEsCaFRLAXVoTn2UaIdLA3N1YmV1Lg==
 		<properties node_id="3" format="literal">{'auto_commit': False, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xff\xff\xff\xff\xff\xf8\x00\x00\n\x00\x00\x00\x05p\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\t\xff\x00\x00\x05o\x00\x00\x00\x00\x02\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\t\xff\x00\x00\x05o', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': True, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [('neighbourhood_group', -1), ('neighbourhood', -1), ('latitude', -1), ('longitude', -1), ('room_type', -1), ('minimum_nights', -1), ('number_of_reviews', -1), ('last_review', -1), ('reviews_per_month', -1), ('calculated_host_listings_count', -1), ('price', -1)], '__version__': 1}</properties>
 		<properties node_id="4" format="pickle">gASVcgIAAAAAAAB9lCiMFV9kZWZhdWx0X21ldGhvZF9pbmRleJRLBowKYXV0b2NvbW1pdJSIjBJj
 b250cm9sQXJlYVZpc2libGWUiIwVZGVmYXVsdF9udW1lcmljX3ZhbHVllEcAAAAAAAAAAIwMZGVm
-YXVsdF90aW1llEsAjBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAP9AAABmQAABgIA
-AAO5AAAD/gAAAbgAAAYBAAADuAAAAAAAAAAACgAAAAP+AAABuAAABgEAAAO4lIwLX192ZXJzaW9u
+YXVsdF90aW1llEsAjBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAH9AAAAyAAABAIA
+AALlAAAB/gAAAOYAAAQBAAAC5AAAAAAAAAAABgAAAAH+AAAA5gAABAEAAALklIwLX192ZXJzaW9u
 X1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRl
 eHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMGl92YXJpYWJsZV9pbXB1dGF0aW9uX3N0YXRllH2USvz/
 //+GlGgISwF1jAphdHRyaWJ1dGVzlH2UKIwTbmVpZ2hib3VyaG9vZF9ncm91cJRLAYwNbmVpZ2hi
@@ -174,19 +174,19 @@ zwAAAb4AAAYxAAADsQAAAAAAAAAACgAAAAPPAAABvgAABjEAAAOxlIwLX192ZXJzaW9uX1+USwSM
 EGNvbnRleHRfc2V0dGluZ3OUXZR1Lg==
 </properties>
 		<properties node_id="12" format="literal">{'auto_commit': False, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xff\xff\xff\xff\xff\xf8\x00\x00\n\x00\x00\x00\x05p\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\t\xff\x00\x00\x05o\x00\x00\x00\x00\x02\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\t\xff\x00\x00\x05o', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': True, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [('last_review', 1), ('days_since_last_review', 1)], '__version__': 1}</properties>
-		<properties node_id="13" format="pickle">gASVpgIAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBBwdXJn
+		<properties node_id="13" format="pickle">gASVvgIAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBBwdXJn
 ZV9hdHRyaWJ1dGVzlImMDXB1cmdlX2NsYXNzZXOUiYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ
 0MsAAwAAAAAD0wAAAdEAAAYsAAADgAAAA9QAAAHwAAAGKwAAA38AAAAAAAAAAAoAAAAD1AAAAfAA
 AAYrAAADf5SMEHVwZGF0ZV9vbl9jaGFuZ2WUiIwLX192ZXJzaW9uX1+USwKMEGNvbnRleHRfc2V0
 dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVl
-c5R9lCiMCmNvbmRpdGlvbnOUXZQojBZkYXlzX3NpbmNlX2xhc3RfcmV2aWV3lEsCSwgpdJRhaAhL
-AnWMCmF0dHJpYnV0ZXOUfZQojAJpZJRLAYwHaG9zdF9pZJRLAYwJaG9zdF9uYW1llEsBjBNuZWln
-aGJvdXJob29kX2dyb3VwlEsBjA1uZWlnaGJvdXJob29klEsBjAhsYXRpdHVkZZRLAowJbG9uZ2l0
-dWRllEsCjAlyb29tX3R5cGWUSwGMBXByaWNllEsCjA5taW5pbXVtX25pZ2h0c5RLAowRbnVtYmVy
-X29mX3Jldmlld3OUSwKMC2xhc3RfcmV2aWV3lEsEjBFyZXZpZXdzX3Blcl9tb250aJRLAoweY2Fs
-Y3VsYXRlZF9ob3N0X2xpc3RpbmdzX2NvdW50lEsCjBBhdmFpbGFiaWxpdHlfMzY1lEsCjBVudW1i
-ZXJfb2ZfcmV2aWV3c19sdG2USwKMB2xpY2Vuc2WUSwFoFEsCdYwFbWV0YXOUfZSMBG5hbWWUSwNz
-dWJhdS4=
+c5R9lCiMCmNvbmRpdGlvbnOUXZQojBZkYXlzX3NpbmNlX2xhc3RfcmV2aWV3lEsCSwhdlHSUYWgI
+SwJ1jAphdHRyaWJ1dGVzlH2UKIwCaWSUSwGMB2hvc3RfaWSUSwGMCWhvc3RfbmFtZZRLAYwTbmVp
+Z2hib3VyaG9vZF9ncm91cJRLAYwNbmVpZ2hib3VyaG9vZJRLAYwIbGF0aXR1ZGWUSwKMCWxvbmdp
+dHVkZZRLAowJcm9vbV90eXBllEsBjAVwcmljZZRLAowObWluaW11bV9uaWdodHOUSwKMEW51bWJl
+cl9vZl9yZXZpZXdzlEsCjAtsYXN0X3Jldmlld5RLBIwRcmV2aWV3c19wZXJfbW9udGiUSwKMHmNh
+bGN1bGF0ZWRfaG9zdF9saXN0aW5nc19jb3VudJRLAowQYXZhaWxhYmlsaXR5XzM2NZRLAowVbnVt
+YmVyX29mX3Jldmlld3NfbHRtlEsCjAdsaWNlbnNllEsBjBZkYXlzX3NpbmNlX2xhc3RfcmV2aWV3
+lEsCdYwFbWV0YXOUfZSMBG5hbWWUSwNzdWJhdS4=
 </properties>
 		<properties node_id="14" format="literal">{'auto_commit': False, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xff\xff\xff\xff\xff\xf8\x00\x00\n\x00\x00\x00\x05p\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\t\xff\x00\x00\x05o\x00\x00\x00\x00\x02\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\t\xff\x00\x00\x05o', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': True, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [('days_since_last_review', -1)], '__version__': 1}</properties>
 		<properties node_id="15" format="pickle">gASVsQIAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBBwdXJn
