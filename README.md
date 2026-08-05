@@ -1,32 +1,55 @@
-## Deliverable 3
+# Deliverable 3
 
-### Objective
+## Python Workflow
 
-The monthly New Zealand Inside Airbnb `listings.csv` snapshots from October 2025 to June 2026 were prepared and combined for Christchurch City.
+The Python workflow:
 
-### Workflow
+- Loaded all monthly Airbnb datasets (October 2025 – June 2026)
+- Filtered to Christchurch City
+- Added a `month_year` column
+- Combined all monthly datasets
+- Produced summary statistics
+- Calculated missing values
+- Saved the processed dataset
+- Created visualisations
+- Reproduced the workflow in Orange Data Mining
 
-1. Loaded all nine monthly CSV files.
-2. Filtered each dataset to `neighbourhood_group == "Christchurch City"`.
-3. Added a `month_year` column identifying the monthly snapshot.
-4. Concatenated all filtered datasets into one dataset.
-5. Produced numerical and categorical summary statistics.
-6. Counted missing values for every column.
-7. Saved the combined dataset and summary files.
-8. Produced visualisations in Python.
-9. Reproduced the analysis in Orange Data Mining.
+---
 
-### Results
+## Number of Christchurch Listings by Month
 
-- Combined dataset: 28,795 rows and 19 columns.
-- Christchurch listing records increased from 2,991 in October 2025 to 3,469 in June 2026.
-- `price` had 10,667 missing values, or 37.04%.
-- December 2025, January 2026 and February 2026 had no usable price values, so monthly median prices could not be calculated for those months.
-- Entire homes/apartments were the most common room type.
-- Central Ward had the largest number of listing records.
+![Listings by Month](outputs/plots/listings_by_month.png)
 
-### Files
+This graph shows that the number of Christchurch Airbnb listings generally increased between October 2025 and June 2026.
 
-- Python workflow: `src/python/datadeliverable4.py`
-- Orange workflow: `workflows/deliverable3_orange.ows`
-- Plots: `outputs/plots/`
+---
+
+## Listings by Christchurch Ward
+
+![Neighbourhood](outputs/plots/listings_by_neighbourhood.png)
+
+Central Ward contains the highest number of Airbnb listings by a considerable margin.
+
+---
+
+## Median Price by Month
+
+![Median Price](outputs/plots/median_price_by_month.png)
+
+Median nightly prices could not be calculated for December 2025, January 2026 and February 2026 because those monthly datasets contained missing price values.
+
+---
+
+## Distribution of Airbnb Prices
+
+![Price Distribution](outputs/plots/price_distribution.png)
+
+Most Christchurch Airbnb listings are priced between approximately \$100 and \$300 per night, with relatively few expensive listings.
+
+---
+
+## Distribution of Room Types
+
+![Room Types](outputs/plots/room_type_distribution.png)
+
+Entire home/apartment listings are by far the most common room type in Christchurch.
