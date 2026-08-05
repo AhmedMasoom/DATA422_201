@@ -1,0 +1,7 @@
+column,unique_values,most_common_value,most_common_count,missing_count,missing_percentage
+name,4854,Room in Christchurch,23,0,0.0
+host_name,1422,Paula Kat Charlotte,1561,1,0.0
+neighbourhood_group,1,Christchurch City,28795,0,0.0
+neighbourhood,16,Central Ward,10554,0,0.0
+room_type,4,Entire home/apt,22765,0,0.0
+month_year,9,Jun 2026,3469,0,0.0
