@@ -2,7 +2,7 @@ import pandas as pd
 from pathlib import Path
 
 # Folder containing the raw Airbnb files
-folder = Path("data/raw/deliverable 3")
+folder = Path("Documents/Github/DATA422_201/data/raw/deliverable 3")
 
 # Match each file to its correct month and year
 files = {
@@ -171,3 +171,154 @@ listings_per_month.to_csv(
 
 print("\nFinished.")
 print("Files saved in data/processed/")
+
+
+
+import matplotlib.pyplot as plt
+
+# Make a folder for plots
+plots_folder = Path(
+    "/Users/maxburford/Documents/GitHub/DATA422_201/outputs/plots"
+)
+plots_folder.mkdir(parents=True, exist_ok=True)
+
+
+# ------------------------------------------------------------
+# Plot 1: Number of listings per month
+# ------------------------------------------------------------
+
+month_order = [
+    "Oct 2025",
+    "Nov 2025",
+    "Dec 2025",
+    "Jan 2026",
+    "Feb 2026",
+    "Mar 2026",
+    "Apr 2026",
+    "May 2026",
+    "Jun 2026"
+]
+
+monthly_counts = (
+    combined["month_year"]
+    .value_counts()
+    .reindex(month_order)
+)
+
+plt.figure(figsize=(10, 6))
+monthly_counts.plot(kind="bar")
+
+plt.title("Number of Christchurch Airbnb Listings by Month")
+plt.xlabel("Month")
+plt.ylabel("Number of Listing Rows")
+plt.xticks(rotation=45)
+plt.tight_layout()
+
+plt.savefig(
+    plots_folder / "listings_by_month.png",
+    dpi=300
+)
+
+plt.show()
+
+
+# ------------------------------------------------------------
+# Plot 2: Median price per month
+# ------------------------------------------------------------
+
+median_price = (
+    combined.groupby("month_year")["price"]
+    .median()
+    .reindex(month_order)
+)
+
+plt.figure(figsize=(10, 6))
+median_price.plot(kind="line", marker="o")
+
+plt.title("Median Christchurch Airbnb Price by Month")
+plt.xlabel("Month")
+plt.ylabel("Median Price ($)")
+plt.xticks(rotation=45)
+plt.tight_layout()
+
+plt.savefig(
+    plots_folder / "median_price_by_month.png",
+    dpi=300
+)
+
+plt.show()
+
+
+# ------------------------------------------------------------
+# Plot 3: Room type counts
+# ------------------------------------------------------------
+
+room_type_counts = combined["room_type"].value_counts()
+
+plt.figure(figsize=(9, 6))
+room_type_counts.plot(kind="bar")
+
+plt.title("Christchurch Airbnb Listings by Room Type")
+plt.xlabel("Room Type")
+plt.ylabel("Number of Listing Rows")
+plt.xticks(rotation=30)
+plt.tight_layout()
+
+plt.savefig(
+    plots_folder / "room_type_counts.png",
+    dpi=300
+)
+
+plt.show()
+
+
+# ------------------------------------------------------------
+# Plot 4: Listings by neighbourhood
+# ------------------------------------------------------------
+
+neighbourhood_counts = (
+    combined["neighbourhood"]
+    .value_counts()
+    .sort_values(ascending=True)
+)
+
+plt.figure(figsize=(10, 8))
+neighbourhood_counts.plot(kind="barh")
+
+plt.title("Christchurch Airbnb Listings by Ward")
+plt.xlabel("Number of Listing Rows")
+plt.ylabel("Neighbourhood")
+plt.tight_layout()
+
+plt.savefig(
+    plots_folder / "listings_by_neighbourhood.png",
+    dpi=300
+)
+
+plt.show()
+
+
+# ------------------------------------------------------------
+# Plot 5: Price distribution
+# ------------------------------------------------------------
+
+# Remove missing prices and extreme values for a readable plot
+price_plot_data = combined[
+    combined["price"].notna()
+    & (combined["price"] <= 1000)
+]["price"]
+
+plt.figure(figsize=(10, 6))
+plt.hist(price_plot_data, bins=40)
+
+plt.title("Distribution of Christchurch Airbnb Prices")
+plt.xlabel("Price ($)")
+plt.ylabel("Frequency")
+plt.tight_layout()
+
+plt.savefig(
+    plots_folder / "price_distribution.png",
+    dpi=300
+)
+
+plt.show()
